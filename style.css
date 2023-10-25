@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100%;
+    background-color: chartreuse;
+
+}
+
+
+.navbar {
+    width: 100%;
+
+    padding: 20px;
+    display: flex;
+    background-color: black;
+}
+
+.navlink {
+
+
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+
+
+}
+
+.navbar img {
+    height: 80px;
+    margin-left: 150px;
+}
+
+.navbar input {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.navlink ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    color: white;
+
+
+}
+
+.navlink li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 10px;
+
+}
+
+.nav-second-links {
+
+    display: flex;
+    margin-left: 250px;
+    width: 100%;
+
+
+}
+
+.nav-second-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+.nav-second-links li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.nav-second-links button {
+    border-radius: 10px;
+    width: 120px;
+}
+
+.first-section {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/firsr\ full.jpg);
+    background-size: cover;
+
+
+}
+
+.text {
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+
+
+}
+
+.text {}
+
+.save-btn {
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    width: 130px;
+    color: white;
+    border: 1px solid white;
+}
+
+.shop-btn {
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 180px;
+    border-radius: 20px;
+}
+.shop-btn:hover{
+    background-color: gray;
+    color: white;
+    width: 300px;
+}
+
+.first-bottom {
+    background-color: black;
+    height: 80px;
+    display: flex;
+}
+
+.first-bottom ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.first-bottom li {
+    margin: 30px;
+    font-size: 22px;
+}
+
+.card-section {
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.card1 {
+    height: 430px;
+    width: 300px;
+   
+}
+
+.card2 {
+    height: 430px;
+    width: 300px;
+   
+
+}
+.card2 img{
+    height: 250px;
+    width: 301px;
+}
+    
+
+
+.card3 {
+    height: 430px;
+    width: 300px;
+
+}
+
+.card3 img{
+    height: 250px;
+    width: 301px;
+}
+
+.card4 {
+    height: 430px;
+    width: 300px;
+
+}
+.card4 img{
+    height: 250px;
+    width: 301px;
+}
+.special{
+    
+    width: 100%;
+    background-color: grey;
+    text-transform: uppercase;
+    
+}
+.third-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+
+}
+.third-text{
+padding: 50px;
+color: white;
+
+}
+
+
+.third-image img{
+    height: 600px;
+    background-color: chartreuse;
+}
+.explore{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+}
+.forth-section{
+    height: 80vh;
+background-image: url( );
+background-position: center;
+background-size: cover;
+}
